@@ -14,8 +14,8 @@ function App() {
         </div>
         <div className='body'>
         <Routes>
-          <Route path='/' element={<Home/>}></Route>
-          <Route path='/about' element={<About/>}></Route>
+          <Route path='/React-App' element={<Home/>}></Route>
+          <Route path='/React-App/about' element={<About/>}></Route>
         </Routes>
         </div>
         <div className='site-footer'>
