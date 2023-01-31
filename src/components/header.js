@@ -1,11 +1,11 @@
 import React from "react";
 import Logo from '../logo.svg'
 import { Link } from "react-router-dom";
-const header = () => {
+const header = (props) => {
     return (
-        <div className="header-container mx-auto mxw-1220 px-20">
+        <div name={props.name} data-name={props.data} className="header-container mx-auto mxw-1220 px-20">
             <div className="site-logo">
-            <Link to={`/`}><img src={Logo}></img></Link>
+            <Link to={`/React-App`}><img src={Logo} alt="site-logo"></img></Link>
             </div>
             <div className="nav-menu">
                 <ul>

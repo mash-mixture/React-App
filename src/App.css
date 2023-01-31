@@ -27,6 +27,14 @@
   align-items: center;
   justify-content: space-between;
 }
+body *, body{
+  background-color: #23272f;
+  color: rgb(246 247 249);
+}
+.timer{
+  font-weight: 600;
+  font-size: 30px;
+}
 
 .site-logo {
   width: 175px;
@@ -44,4 +52,22 @@
 
 .nav-menu li a {
   margin: 0 10px;
+}
+
+.avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  background: gainsboro;
+  margin-right: 10px;
+}
+
+.comment-grid {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.username{
+  text-transform: capitalize;
+  font-weight: 600;
 }
